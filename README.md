@@ -1,6 +1,6 @@
 # Welcome to cloudflare-redirector-worker 👋
 
-![Version](https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000)
+![Version](https://img.shields.io/github/package-json/v/vabatta/cloudflare-redirector-worker)
 ![Node.js CI](https://github.com/vabatta/cloudflare-redirector-worker/workflows/Node.js%20CI/badge.svg)
 ![Prerequisite](https://img.shields.io/badge/node-10.x-blue.svg)
 ![Prerequisite](https://img.shields.io/badge/npm-6.x-blue.svg)
