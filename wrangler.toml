@@ -1,0 +1,26 @@
+# top level configruation
+workers_dev = false
+type = "javascript"
+name = "cloudflare-redirector-dev"
+account_id = ""
+zone_id = ""
+route = "dev.test.com/*"
+kv-namespaces = [
+	{ binding = "redirections", id = "" } 
+]
+
+# environment configuration
+[env.staging]
+name = "cloudflare-redirector-staging"
+route = "staging.test.com/*"
+kv-namespaces = [
+	{ binding = "redirections", id = "" } 
+]
+
+# environment configuration
+[env.production]
+name = "cloudflare-redirector"
+routes = ["test.com/*", "www.test.com/*"]
+kv-namespaces = [
+	{ binding = "redirections", id = "" } 
+]

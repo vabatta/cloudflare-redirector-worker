@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"esModuleInterop": true,
+		"lib": ["es2018", "webworker"],
+		"target": "es2018",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"strict": true
+	},
+	"include": [
+		"src/**/*",
+		"src/types.d.ts",
+		"./node_modules/@cloudflare/workers-types/index.d.ts"
+	]
+}

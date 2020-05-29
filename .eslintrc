@@ -1,0 +1,16 @@
+{
+	"ignorePatterns": ["dist/**/*"],
+	"extends": ["xo/esnext"],
+	"rules": {
+		"no-warning-comments": [
+			"warn",
+			{
+				"terms": ["todo", "fixme", "review"]
+			}
+		],
+		"object-curly-spacing": ["error", "always"],
+		"operator-linebreak": "off",
+		"capitalized-comments": "off" // ["error", "never"]
+	},
+	"root": true
+}

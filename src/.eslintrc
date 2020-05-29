@@ -1,0 +1,22 @@
+{
+	"extends": ["../.eslintrc", "xo-typescript"],
+	"overrides": [
+		{
+			"files": ["!**/*.spec.ts"],
+			"env": {
+				"worker": true
+			}
+		},
+		{
+			"files": ["**/*.spec.ts"],
+			"rules": { "@typescript-eslint/no-var-requires": "off" },
+			"env": {
+				"worker": true,
+				"jest": true
+			},
+			"globals": {
+				"listeners": true
+			}
+		}
+	]
+}
